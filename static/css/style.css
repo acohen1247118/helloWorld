@@ -1,0 +1,27 @@
+p {
+
+    color:red;
+    font-size:16px;
+}
+
+h2 {
+    color:green;
+    font-weight:bold;
+}
+
+table,td,th {
+    border-color:red;
+} /* Makes all tables border color red*/
+
+p#special-one {
+    color:blue;
+    font-weight: bold;
+} /* Can only be used one time on one paragraph*/
+div h3 {
+    color:orange; /* Makes headers on level 3 orange*/
+}
+
+.cssruleblock {
+    height:150px;
+    width:100px
+}
