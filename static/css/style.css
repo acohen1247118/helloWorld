@@ -10,7 +10,10 @@ h2 {
 }
 
 table,td,th {
+    border-style: solid;
     border-color:red;
+    border-width: 3px;
+    border-collapse: collapse;
 } /* Makes all tables border color red*/
 
 p#special-one {
@@ -22,6 +25,6 @@ div h3 {
 }
 
 .cssruleblock {
-    height:150px;
+    height:100px;
     width:100px
 }
