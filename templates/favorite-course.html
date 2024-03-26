@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block page_title %}Favorite Courses{% endblock %}
+
+{% block page_head %}You entered Your Favorite Course as:{% endblock %}
+
+{% block page_content %}
+
+    <p> {{request.args.get("subject_name")}} {{request.args.get("course_number")}} </p>
+
+
+
+{% endblock %}
