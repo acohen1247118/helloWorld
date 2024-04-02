@@ -1,0 +1,275 @@
+.home-pg-color-theme {
+    background-color: #1E1E1E;
+    color: rgb(232,227,220);
+    font-family: Impact;
+}
+
+.signup-signin-color-theme {
+     background-color: #e9e3dc;
+       color: rgb(232,227,220);
+       font-family: Impact;
+}
+
+#logo {
+    height: 125px;
+    width: 300px;
+}
+
+.page-links-format {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-links-format-my-rewards {
+    background-color: rgb(30,30,30);
+}
+
+.my-rewards-header {
+    margin-bottom: 200px;
+    margin-left: 150px;
+    color: rgb(30,30,30);
+    font-size: xxx-large;
+}
+
+.linksRowFormat {
+    display: contents;
+    margin-left: 10px;
+}
+
+.btn-dark {
+    color: rgb(232,227,220);
+}
+
+p#top-rated-takeout-delivery {
+    color: darkolivegreen;
+    font-size: 1em;
+    margin-left: auto ;
+    margin-right: auto;
+}
+
+.philly-text-header {
+    color: rgb(232,227,220);
+    font-size: xxx-large;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#centered-cheesesteak {
+    height: 250px;
+    width: 650px;
+    margin-left: 20%;
+}
+
+#Tokoa-Btn-Format {
+    height: 75px;
+    width: 225px;
+    color: rgb(232,227,220);
+}
+
+#about-section {
+    font-size: medium;
+    color: rgb(30,30,30);
+    background-color: rgb(211,239,69) ;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#hrs-loc-section {
+    background-color: rgb(178,160,206);
+    color: rgb(30,30,30);
+    text-align: center;
+}
+
+img#hrs-loc-sect-logo {
+    height: 75px;
+    margin-top: 10px;
+}
+
+#map {
+    width: 100px;
+    height: 400px;
+    margin-top:20px;
+}
+
+td.bold {
+    font-weight: bold;
+}
+
+.btn-custom {
+    background-color: #cfe56f;
+    color: black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 280px
+}
+
+.navbar {
+  background-color: #1E1E1E;
+  padding: 10px;
+  }
+
+.navbar a{
+    color: #e9e3dc;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px;
+    font-size: 30px
+}
+
+.navbar a:hover{
+text-decoration: underline;
+}
+
+.menu-page-header {
+    padding-top: 100px;
+    text-align: center;
+    color: rgb(30,30,30);
+    font-size: xxx-large;
+}
+
+.menu-page-subheader {
+    text-align: center;
+    color: rgb(30,30,30);
+    font-size: x-large;
+}
+
+.menu-page-description {
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: rgb(30,30,30);
+    font-size: medium;
+}
+
+.menu-section-header{
+    padding-top: 100px;
+    margin: 20px;
+    text-align: center;
+}
+
+.food-item {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.food-item-description{
+    border-bottom: 1px solid #1E1E1E;
+}
+
+.beverage-dessert-item{
+    display: flex;
+    padding:10px;
+    justify-content: space-between;
+    border-bottom: 1px solid #1E1E1E;
+}
+
+.my-rewards-background-top-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-rewards-background-bottom-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-reward-btn-txt {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.top-reward-box-txt {
+    margin-top: 10px;
+}
+
+.btm-reward-btn-txt {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btm-reward-box-txt {
+    margin-bottom: 10px;
+}
+
+.accountText{
+   margin-right:40px
+}
+
+.thatblackcolor{
+   color: #1E1E1E;
+   }
+
+h1 {
+   font-size: 60px;
+   text-align:center;
+   }
+
+.btn-custom {
+background-color: #cfe56f;
+color: black;
+border-radius: 20px;
+padding: 10px 20px;
+margin-left: 280px;
+}
+
+
+.navbar {
+    background-color: #1E1E1E;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.navbar a{
+    color: #e9e3dc;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+ }
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.status-of-orders {
+    display:flex
+    justify-content: center;
+}
+
+.checkout-header-center{
+      text-align: center;
+}
+.checkout-table-styling {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1.0em;
+    min-width: 400px;
+    text-align: left;
+    padding: 15x;
+}
+
+.checkout-background-color {
+     background-color: #e9e3dc;
+
+}
+.order-confirmation-h2-headers {
+  color: #1E1E1E;
+  font-family: Impact;
+    font-size: 1.5em;
+  text-align: center;
+}
+.order-confirmation-h1-header {
+  color: #1E1E1E;
+  font-family: "Arial Black";
+    font-size: 2em;
+  text-align: center;
+}
+.checkout-table {table-layout: fixed;
+ width: 50%;
+word-wrap:break-word;}

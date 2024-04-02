@@ -28,3 +28,7 @@ div h3 {
     height:100px;
     width:100px
 }
+
+tablespace {
+  border-spacing: 30px;
+}
