@@ -71,7 +71,7 @@
     <label for="student_email" class="form-label"><strong>Email</strong></label>
     {% if action and action in ['create', 'update'] %}
     <input type="email" class="form-control" id="student_email" name="student_email" maxlength="100" value="{{ student['student_email'] if student else '' }}" required>
-    {% else %}
+    {% else %} <!--Above are the details of the email field-->
         <br>{{ student['email'] }}
     {% endif %}
   </div>

@@ -50,7 +50,7 @@ def student_create():
 
         birth_date = request.form['birth_date']
         is_honors = True if 'is_honors' in request.form else False
-        student_email = request.form['student_email']
+        student_email = request.form['student_email'] #Added field for student email in student create route.
 
         student = Student(first_name=first_name, last_name=last_name, major_id=major_id,
                           birth_date=dt.strptime(birth_date, '%Y-%m-%d'), student_email=student_email, is_honors=is_honors)
@@ -88,7 +88,8 @@ def student_edit(student_id):
             student.num_credits_completed = request.form['num_credits_completed']
             student.gpa = request.form['gpa']
             student.is_honors = True if 'is_honors' in request.form else False
-            student.student_email = request.form['student_email']
+            student.student_email = request.form['student_email'] #Added field for student email in student update route.
+
 
             db.session.commit()
             flash(f'{student.first_name} {student.last_name} was successfully updated!', 'success')

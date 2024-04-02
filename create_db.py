@@ -27,8 +27,7 @@ with app.app_context():
         print(f'{each_student["first_name"]} {each_student["last_name"]} inserted into Student')
         a_student = Student(first_name=each_student["first_name"], last_name=each_student["last_name"],
                             major_id=each_student["major_id"], birth_date=each_student["birth_date"],
-                            is_honors=each_student["is_honors"], student_email=each_student["student_email"])
+                            is_honors=each_student["is_honors"], student_email=each_student["student_email"]) #including email object in creation of DB
         db.session.add(a_student)
         db.session.commit()
-
 
